@@ -1,6 +1,6 @@
 # 🖼️💥 Augmently  :
 An Open Source library for Data Augmentation for image classification.\
-With Flips, Square crops and resiszing, and Salt and Pepper Noise.\
+Flip, Square crop & resisze your images, and add Salt and Pepper Noise.\
 &nbsp;
 # 📁Note On Folder Format:
 Currently the library works only for image grouped each in their own class folder.
