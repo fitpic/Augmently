@@ -26,7 +26,7 @@ Then in your desired file write:
         
 # 🤖 The Functions:
 &nbsp;
-## 🔲 Crop to Square Size - create_resized_cropped_square_class_images()
+## 🔲 Crop to Square Size - create_resized_cropped_square_class_images_in_new_folder()
 
 ### What it does:  
 Creates a new folder with your images both resized and cropped to the square image length of your choice
@@ -41,7 +41,7 @@ image_data_path  (String) , output_path (string), square_length (Number)
 &nbsp;
 &nbsp;
 &nbsp;
-## 🧂Salt and Pepper Noise - create_salt_and_pepper_class_images()
+## 🧂Salt and Pepper Noise - create_salt_and_pepper_class_images_in_new_folder()
 
 ### What it does:  
 Creates a new folder with your images with your desired amount of salt and pepper noise pixels added to your images
@@ -58,7 +58,7 @@ image_data_path (String) , output_path (String) , noise_amount (Number)
 &nbsp;
 &nbsp;
 
-## ↔️ Flip images - create_flipped_class_images()
+## ↔️ Flip images - create_flipped_class_images_in_new_folder()
 
 ### What it does:  
 Creates a new folder with your images flipped
