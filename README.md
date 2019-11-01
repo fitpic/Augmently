@@ -19,7 +19,7 @@ Currently the library works only for image grouped each in their own class folde
 # ⭐Start Using it:
 
 Download the Augmently folder and place it in your project folder.
-COPY PAST THE CODE BELOW:
+COPY PASTE the code below:
 
         from Augmently.Augmently import create_resized_cropped_square_class_images, create_salt_and_pepper_class_images, create_salt_and_pepper_class_images
         
