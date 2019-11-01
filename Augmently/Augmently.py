@@ -3,7 +3,7 @@
 import os
 from os import listdir
 from os.path import isfile, join
-import stat
+# import stat
 
 # pip dependancies
 import cv2 # opencv-python
@@ -140,8 +140,8 @@ def create_salt_and_pepper_class_images_in_new_folder (image_data_path, output_p
 
 # IMAGE FLIPS
 
-def has_hidden_attribute(filepath):
-    return bool(os.stat(filepath).st_file_attributes & stat.FILE_ATTRIBUTE_HIDDEN)
+# def has_hidden_attribute(filepath):
+#     return bool(os.stat(filepath).st_file_attributes & stat.FILE_ATTRIBUTE_HIDDEN)
 
 def create_flipped_class_images_in_new_folder (image_data_path, output_path):
     if not os.path.exists(output_path):
