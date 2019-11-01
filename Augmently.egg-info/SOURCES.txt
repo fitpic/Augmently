@@ -1,0 +1,8 @@
+README.md
+setup.py
+Augmently/Augmently.py
+Augmently.egg-info/PKG-INFO
+Augmently.egg-info/SOURCES.txt
+Augmently.egg-info/dependency_links.txt
+Augmently.egg-info/requires.txt
+Augmently.egg-info/top_level.txt

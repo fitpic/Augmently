@@ -13,7 +13,7 @@ setup(
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A library for Data Augmentation of images in computer vision.',   # Give a short description about your library
   long_description=long_description,
-  long_description_content_type='text/markdown'
+  long_description_content_type='text/markdown',
   author = 'Nicolas Carmont',                   # Type in your name
   author_email = 'nickcarmont8@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/fitpic/Augmently',   # Provide either the link to your github or to your website
