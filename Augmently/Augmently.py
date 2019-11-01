@@ -1,12 +1,15 @@
 # Crop to Square and resize
-## CROP ALL IMAGES TO SQUARE AND RESIZE TO 224!!!!
+# import inbuilt libs
 import os
 from os import listdir
 from os.path import isfile, join
-import cv2
-from PIL import Image
-import numpy as np
 import stat
+
+# pip dependancies
+import cv2 # opencv-python
+from PIL import Image # Pillow
+import numpy as np # numpy
+
 
 def crop_to_square(im):
     im = Image.fromarray(im)
