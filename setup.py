@@ -13,7 +13,7 @@ setup(
   install_requires=[            # I get to this in a second
           'numpy',
           'opencv-python',
-          'PIL',
+          'Pillow',
           'stat'
       ],
   classifiers=[
