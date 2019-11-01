@@ -12,7 +12,7 @@ setup(
   keywords = ['image', 'augmentation', 'machine learning', 'CNN', 'data augmentation','deep learning','data processing'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'numpy',
-          'cv2',
+          'opencv-python',
           'PIL',
           'stat'
       ],
