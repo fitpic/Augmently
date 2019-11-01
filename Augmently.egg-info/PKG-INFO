@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: Augmently
-Version: 1.0.6
+Version: 1.0.9
 Summary: A library for Data Augmentation of images in computer vision.
 Home-page: https://github.com/fitpic/Augmently
 Author: Nicolas Carmont
 Author-email: nickcarmont8@gmail.com
 License: MIT
-Download-URL: https://github.com/fitpic/Augmently/archive/1.0.6.tar.gz
+Download-URL: https://github.com/fitpic/Augmently/archive/1.0.9.tar.gz
 Description: # 🖼️💥 Augmently  :
         An Open Source library for Data Augmentation for image classification.\
         With Flips, Square crops and resiszing, and Salt and Pepper Noise.\
