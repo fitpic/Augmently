@@ -33,7 +33,6 @@ def crop_to_square(im):
     
     return im
 
-
 def resize_to_shape(im, square_length):
     dim = (square_length, square_length)
     resized = cv2.resize(np.array(im), dim, interpolation = cv2.INTER_AREA)
@@ -176,3 +175,8 @@ def create_flipped_class_images_in_new_folder (image_data_path, output_path):
                     cv2.imwrite(new_img_path, img)
                     cv2.imwrite(new_flipped_img_path, flipped_img)
             
+    # GAUSSIAN NOISE
+    def create_gaussian_noise_class_images_in_new_folder (image_data_path, output_path, noise_amount):
+        
+        return 0
+    
