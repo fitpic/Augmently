@@ -1,0 +1,137 @@
+# 🖼️💥 Augmently  :
+An Open Source library for Data Augmentation for image classification.\
+With Flips, Square crops and resiszing, and Salt and Pepper Noise.\
+&nbsp;
+# 📁Note On Folder Format:
+Currently the library works only for image grouped each in their own class folder.
+#### For example:
+        ──My_animal_images_folder
+            ├── Dogs
+            │   ├── dog_img_1.jpg
+            │   ├── dog_img_2.jpg
+            │   ├── ...
+            │   └── dog_img_n.jpeg
+            ├── Cats
+            ├── ...
+            └── Elephants   
+&nbsp;
+
+# ⭐Start Using it:
+
+Download the Augmently folder and place it in your project folder.
+Then in your desired file write:
+
+        from augmently.augmently import create_resized_cropped_square_class_images, create_salt_and_pepper_class_images, create_salt_and_pepper_class_images
+        
+        
+# 🤖 The Functions:
+&nbsp;
+## 🔲 Crop to Square Size - create_resized_cropped_square_class_images()
+
+### What it does:  
+Creates a new folder with your images both resized and cropped to the square image length of your choice
+
+### Arguments: 
+image_data_path  (String) , output_path (string), square_length (Number)
+
+### Example Usage:
+
+    create_resized_cropped_square_class_images_in_new_folder("Desktop/image_folder", "Desktop/image_folder_square_resized_224pixels", 224 )
+
+&nbsp;
+&nbsp;
+&nbsp;
+## 🧂Salt and Pepper Noise - create_salt_and_pepper_class_images()
+
+### What it does:  
+Creates a new folder with your images with your desired amount of salt and pepper noise pixels added to your images
+
+### Arguments: 
+image_data_path (String) , output_path (String) , noise_amount (Number)
+
+### Example Usage:
+
+    create_salt_and_pepper_class_images_in_new_folder("Desktop/image_folder", "Desktop/image_folder_salt_pepper_0.05", 0.05 )
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## ↔️ Flip images - create_flipped_class_images()
+
+### What it does:  
+Creates a new folder with your images flipped
+
+### Arguments: 
+image_data_path (String) , output_path (string)
+
+### Example Usage:
+
+    create_flipped_class_images_in_new_folder("Desktop/image_folder", "Desktop/image_folder_flipped")
+
+# 🔜 In Progress:    
+    
+## 🔄 Square Cropped Rotations - create_rotated_class_images()
+
+### What it does:  
+Creates a new folder with your images with your desired amount of maximum rotation to your images
+
+### Arguments: 
+image_data_path (String) , output_path (String) , max_rotation (Number in degrees)
+
+### Example Usage:
+
+    create_rotated_images_in_new_folder("Desktop/image_folder", "Desktop/image_folder_rotated_360", 360 )
+    
+## 🌈 Gaussian Noise - create_gaussian_noise_class_images()
+
+### What it does:  
+Creates a new folder with your images with your desired amount of gaussian noise to your images
+
+### Arguments: 
+image_data_path (String) , output_path (String) , amount_noise (Number)
+
+### Example Usage:
+
+    create_gaussian_noise_images_in_new_folder("Desktop/image_folder", "Desktop/image_gaussian_0.05", 0.05 )
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## ⬛ Add Occluding Black Squares - create_occluding_squares_class_images()
+
+### What it does:  
+Creates a new folder with your images with your desired max size of occluding black squares to your images
+
+### Arguments: 
+image_data_path (String) , output_path (String) , max_square_len (Number in px)
+
+### Example Usage:
+
+    create_occluding_square_images_in_new_folder("Desktop/image_folder", "Desktop/image_black_square_20", 20 )
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## 🔍 Random Resized Zooms - create_zoom_class_images()
+
+### What it does:  
+Creates a new folder with your images with your desired max zoom (resized to original len) to your images
+
+### Arguments: 
+image_data_path (String) , output_path (String) , max_zoom_square_len (Number in px)
+
+### Example Usage:
+
+    create_zoomed_images_in_new_folder("Desktop/image_folder", "Desktop/image_zoom_120", 120 )
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
