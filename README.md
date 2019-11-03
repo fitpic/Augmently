@@ -18,8 +18,11 @@ Currently the library works only for image grouped each in their own class folde
 
 # ⭐Start Using it:
 
-Download the Augmently folder and place it in your project folder.
-COPY PASTE the code below:
+Download the Pip version:
+
+    pip install Augmently
+
+Now COPY PASTE this in your code:
 
         from Augmently.Augmently import create_resized_cropped_square_class_images, create_salt_and_pepper_class_images, create_salt_and_pepper_class_images
         
